@@ -1,0 +1,20 @@
+{
+  "name": "practise1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tailwind -i ./src/input.css -o ./public/style.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "vite": "^5.3.1"
+  }
+}
